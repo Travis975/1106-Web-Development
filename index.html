@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <header id="header" onclick="changeBG('header')">HEADER</header>
+
+    <body>
+        <div class="main-content">
+            <div class="banner" onmouseenter="changeText(this)" onmouseleave="origText(this)">BANNER</div>
+            <div class="sidebar">
+                <div class="top-line">SIDEBAR</div>
+                <div class="bottom-line">SIDEBAR</div>
+            </div>
+            <div id="body" ondblclick="changeTextColor('body')">BODY</div>
+            <div id="sb1">Sub-Body 1</div>
+            <div id="sb2">Sub-Body 2</div>
+        </div>
+    </body>
+
+    <footer id="footer" onclick="changeBG('footer')">FOOTER</footer>
+    <div class="button">
+        <button onclick="toggleOrder()">Reorder Sub-Bodies</button>
+    </div>
+</html>
+
+
